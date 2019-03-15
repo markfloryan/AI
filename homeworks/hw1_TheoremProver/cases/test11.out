@@ -1,0 +1,28 @@
+Variables:
+	A = "s"
+	B = "b"
+	C = "c"
+Facts:
+	A
+Rules:
+	A -> B
+Variables:
+	A = "s"
+	B = "b"
+	C = "c"
+Facts:
+	A
+	B
+Rules:
+	A -> B
+Variables:
+	A = "s"
+	B = "b"
+	C = "c"
+Facts:
+	A
+	B
+	C
+Rules:
+	A -> B
+	A&B -> C

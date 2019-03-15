@@ -1,0 +1,8 @@
+Teach -L A = "a"
+Teach -L B = "b"
+Teach -L C = "c"
+Teach -R D = "d"
+Teach -L E = "e"
+Teach D = true
+Teach D|(A&C&B)|D -> E
+Query E

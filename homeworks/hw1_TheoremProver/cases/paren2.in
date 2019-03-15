@@ -1,0 +1,9 @@
+Teach -R A = "a"
+Teach -L B = "b"
+Teach -L C = "c"
+Teach -R D = "d"
+Teach D = true
+Teach ((A&!D)|(D&!A))&B -> C
+Teach D -> B
+Learn
+Query C

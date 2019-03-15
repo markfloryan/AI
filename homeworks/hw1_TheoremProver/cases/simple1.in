@@ -1,0 +1,6 @@
+Teach -R A = "My backward chaining is working"
+Teach -L B = "I can solve this simple instance"
+Teach A -> B
+Teach A = true
+Learn
+Why B

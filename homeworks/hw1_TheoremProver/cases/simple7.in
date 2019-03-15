@@ -1,0 +1,7 @@
+Teach -R A = "a"
+Teach -L B = "b"
+Teach -L C = "c"
+Teach A -> B
+Teach B -> C
+Teach A = true
+Why C

@@ -1,0 +1,8 @@
+Teach -R D = "Foo"
+Teach -L E = "Bar"
+Teach -L F = "Baz"
+Teach !D -> F
+Teach F&D -> E
+Teach D = true
+Learn
+Query E

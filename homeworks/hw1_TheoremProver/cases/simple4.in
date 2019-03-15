@@ -1,0 +1,7 @@
+Teach -L A = "a"
+Teach -R B = "b"
+Teach -L C = "c"
+Teach C|B -> A
+Teach B = true
+Learn
+Query A

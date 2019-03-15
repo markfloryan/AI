@@ -1,0 +1,12 @@
+Teach -L A = "a"
+Teach -L B = "b"
+Teach -L C = "c"
+Teach -R D = "d"
+Teach -L E = "e"
+Teach -L F = "f"
+Teach D|E&A|B -> C
+Teach !C&D|!D&C -> B
+Teach !B -> F
+Teach D = true
+Learn
+Query F

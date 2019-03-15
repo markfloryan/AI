@@ -1,0 +1,16 @@
+Teach -R A = "A"
+Teach -L B = "B"
+Teach -R C = "C"
+Teach -L D = "D"
+Teach A|C -> B
+Teach B&C -> D
+Teach A = true
+Learn
+Query B
+Query D
+Teach A = false
+Query B
+Teach C = true
+Learn
+Query B
+Query D

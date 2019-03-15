@@ -1,0 +1,4 @@
+O O X X O X O O
+F O X O O X S O
+O O O X O X O O
+O O O X X O O O
