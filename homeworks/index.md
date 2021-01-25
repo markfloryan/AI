@@ -3,6 +3,9 @@ CS4710 - Artificial Intelligence
 
 [Back to Main Page](../readme.html)
 
+Homeworks
+---------------------------------------
+
 | Topic | Assignment | HW Description | Full Download | Description |
 | ----- | ----- | :---: | :--------: | --------------------|
 | Philosophy of AI | HW 0: Is AI Possible? | pdf | download | A brief report on the possibilities of AI |
