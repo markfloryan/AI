@@ -1,5 +1,0 @@
-Teach -R A = "a"
-Teach -L B = "b"
-Teach !A -> B
-Learn
-Query B

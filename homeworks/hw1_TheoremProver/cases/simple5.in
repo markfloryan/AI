@@ -1,8 +1,0 @@
-Teach -R A = "a"
-Teach -L B = "b"
-Teach -R C = "c"
-Teach A&C -> B
-Teach A = true
-Teach C = true
-Learn
-Query B

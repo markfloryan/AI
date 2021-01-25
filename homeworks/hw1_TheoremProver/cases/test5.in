@@ -1,6 +1,0 @@
-Teach -L A = "s"
-Teach -L B = "b"
-Teach -L C = "c"
-Teach -R A -> B
-Teach A = true
-Query B&C

@@ -1,7 +1,0 @@
-Teach -R A = "s"
-Teach -L B = "b"
-Teach -L C = "c"
-Teach A -> C
-Teach A -> B
-Teach A = true
-Query A|B

@@ -1,6 +1,0 @@
-Teach -L X = "X"
-Teach -R Y = "Y"
-Teach Y = false
-Teach !Y -> X
-Learn
-Query X
