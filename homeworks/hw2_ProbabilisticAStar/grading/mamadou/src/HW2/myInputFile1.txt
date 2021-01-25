@@ -1,5 +1,0 @@
-O O O O O
-O O X X F
-O S X X O
-O O O O X
-O O O O O
