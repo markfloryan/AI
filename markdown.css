@@ -1,9 +1,4 @@
-/* This file is part of the http://github.com/aaronbloomfield/pdr
- * repo, and has the same license as the rest of the repo (CC BY-SA)
- *
- * The formatting is loosely based on that of github.com's README.md
- * file CSS formatting
- */
+
 
 body {
     font: 15px/1.4 Helvetica,arial,freesans,clean,sans-serif;
@@ -41,22 +36,7 @@ pre {
     padding: 6px 10px;
 }
 
-/* table formatting */
-/*
-th {
-  background-color: #cccccc;
-  text-align:center;
-  padding: 4px;
-}
 
-tr:hover {
-  background-color: #eeeeee;
-}
-
-td {
-    padding: 2px;
-}
-*/
 
 table {
     border-collapse: collapse;
