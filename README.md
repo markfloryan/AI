@@ -16,7 +16,7 @@ The repository contains content for CS4710 - Artificial Intelligence at [ the Un
 this online at github.com -- you will need to clone (download) the
 repository first**
 
-- [Course Logistics](courseLogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, etc.
+- [Course Logistics](courselogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, etc.
 - [Homeworks](homeworks/index.html) ([md](homeworks/index.md)): The homeworks for the course, along with due dates and related things.
 - [Slides](slides/index.html) ([md](slides/index.md)): Contains the slides used in the course.
 
