@@ -18,7 +18,7 @@ repository first**
 
 - [Course Logistics](courselogistics/index.html): The syllabus, introductory slide deck, grading policy, course schedule, etc.
 - [Homeworks](homeworks/index.html) ([md](homeworks/index.md)): The homeworks for the course, along with due dates and related things.
-- [Slides](slides/index.html) ([md](slides/index.md)): Contains the slides used in the course.
+- [Schedule and Slides](slides/index.html) ([md](slides/index.md)): Contains the slides used in the course as well as the semester schedule.
 
 
 <a name="contributing"></a>Contributing to this Repository
