@@ -37,16 +37,6 @@ At that point, I will receive a notice that a change has been submitted, and I'l
 When you want to bring in the updates from the main dsa1 github repository into your forked repository, you will need to follow the instructions [here](https://help.github.com/articles/syncing-a-fork).
 
 
-<a name="description"></a>Course Description
---------------------------------------------
-
-Introduces the development and design of modern video games. Includes the description and implementation of a 2-dimensional game engine (including sprite graphics, linear transformations, display trees, etc). Introduces concepts in video game design, including designing for teaching game mechanics, the distinction between mechanics, dynamics, and aesthetics, and pacing through levels / level design. Students complete the implementation of their game engine and then proceed to build a fully playable game in the engine they have created.
-
-The [ABET](http://www.abet.org) course objectives are below. Students will be able to:
- 
-- Understand and implement a basic 2-dimensional game engine.
-- Increase understanding of game and level design, including how visual and auditory cues contribute to teaching a player the game mechanics of the system.
-- Implement a fully playable game, including all aspects of the software lifecycle (design, implementation, testing, etc.).
 
 
 <a name="license"></a>License
