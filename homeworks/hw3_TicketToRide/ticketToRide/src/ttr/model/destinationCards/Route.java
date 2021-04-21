@@ -54,6 +54,11 @@ public class Route {
 		return (this.dest1 == otherRoute.dest1 && this.dest2 == otherRoute.dest2) || 
 				(this.dest2 == otherRoute.dest1 && this.dest1 == otherRoute.dest2);
 	}
+
+	@Override
+    public int hashCode(){
+        return (this.dest1.toString().hashCode() ^ this.dest2.toString().hashCode()) * 17 + this.color.hashCode();
+    }
 	
 	@Override
 	public Route clone(){

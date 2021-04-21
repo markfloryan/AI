@@ -1,6 +1,6 @@
 import random
 
-NUM_SAMPLES = 10000000
+NUM_SAMPLES = 1000000
 
 i = 0
 count = 0
@@ -30,6 +30,6 @@ while i < NUM_SAMPLES:
 	total = total + weight
 
 
-print count
-print total
-print float(count) / float(total)
+print (count)
+print (total)
+print (float(count) / float(total))

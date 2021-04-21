@@ -1,11 +1,11 @@
 import random
 
-NUM_SAMPLES = 10000000
+NUM_SAMPLES = 100000000
 
 i = 0
 count = 0
 total = 0
-
+0
 while i < NUM_SAMPLES:
 	i = i + 1
 	
@@ -28,6 +28,8 @@ while i < NUM_SAMPLES:
 	if Q == False:
 		total = total + 1
 
-print count
-print total
-print (float(count) / float(total))
+print ("percent samples accepted: " + str(float(total) / float(NUM_SAMPLES)))
+print ("Num samples: " + str(NUM_SAMPLES))
+print ("count is: " + str(count))
+print ("total is: " + str(total))
+print ("Estimated Prob: " + str((float(count) / float(total))))
