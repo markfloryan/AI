@@ -3,14 +3,12 @@
 
 from csv import DictReader
 from sys import argv, exit
-from negotiator import Negotiator
+from stupid_negotiator import StupidNegotiator
+from my_negotiator import MyNegotiator
 from random import randint
 
 ##GUI Related Imports
-import matplotlib
-matplotlib.use('TkAgg')
-import pylab
-import matplotlib.pylab as plt
+from matplotlib import pyplot as plt
 from GUI import GUI
 g = GUI()
 
@@ -78,7 +76,7 @@ def negotiate(num_iterations, negotiator_a, negotiator_b, items):
 
         # We signify agreement by both offers being structurally equal
         if set(offer_b) == (set(items) - set(offer_a)):
-            print "Deal Reached"
+            print("Deal Reached")
             return (True, offer_a, offersList)
 
         offersList.append([set(items) - set(offer_b),set(offer_b)])
@@ -89,7 +87,7 @@ def negotiate(num_iterations, negotiator_a, negotiator_b, items):
         offer_a = negotiator_a.make_offer(offer_b)
 
         if set(offer_a) == (set(items) - set(offer_b)):
-            print "Deal Reached"
+            print("Deal Reached")
             return (True, offer_a, offersList)
 
         offersList.append([set(offer_a),set(items) - set(offer_a)])
@@ -107,8 +105,8 @@ if __name__ == "__main__":
         exit(-42)
     score_a = score_b = 0
     # We will replace Negotiator here with <your id>_Negotiator, as specified in the Readme
-    negotiator_a = Negotiator()
-    negotiator_b = Negotiator()
+    negotiator_a = StupidNegotiator()
+    negotiator_b = MyNegotiator()
     for scenario in argv[1:]:
         # Get the scenario parameters
         (num_iters, mapping) = read_scenario(scenario)
@@ -118,7 +116,7 @@ if __name__ == "__main__":
         a_order = sorted(a_mapping, key=a_mapping.get, reverse=True)
         b_mapping = {item["item_name"] : int(item["negotiator_b"]) for item in mapping}
         for item in a_mapping:
-            print str(item) + " " + str(a_mapping[item]) + ", " + str(b_mapping[item])
+            print(str(item) + " " + str(a_mapping[item]) + ", " + str(b_mapping[item]))
         b_order = sorted(b_mapping, key=b_mapping.get, reverse=True)
         # Give each negotiator their preferred item ordering
         negotiator_a.initialize(a_mapping, num_iters)
@@ -141,9 +139,9 @@ if __name__ == "__main__":
         (A_Utility,B_Utility,theRounds) = end_of_round_graph(negotiator_a,negotiator_b,roundinfo)
         #Make Post-Round Graph
         print("{} negotiation:\n\tNegotiator A: {}\n\tNegotiator B: {}".format("Successful" if result else "Failed", points_a, points_b))
-        g.make_post_round_graph(A_Utility,B_Utility,theRounds,results)
+        #g.make_post_round_graph(A_Utility,B_Utility,theRounds,results)
 
     print("Final result:\n\tNegotiator A: {}\n\tNegotiator B: {}".format(score_a, score_b))
     #Make Post-Game Graph
-    g.make_final_round_graph()
+    #g.make_final_round_graph()
 

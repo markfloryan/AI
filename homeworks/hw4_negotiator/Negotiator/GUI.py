@@ -1,6 +1,5 @@
 import matplotlib
 import numpy as np
-matplotlib.use('TkAgg')
 
 ##GUI Class: Responsible for Displaying All of the Information about Round Results
 ##In a future update, this will also house the UserInterface for playing against an AI
