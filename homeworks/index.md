@@ -13,5 +13,5 @@ Homeworks
 | Classic Search | HW 2: Path-Finding | [pdf](hw2_ProbabilisticAStar/hw2_ProbabilisticAStar.pdf) | [download](./hw2_ProbabilisticAStar.zip) | A robot finding a path through an environment in certain and uncertain environments |
 | Uncertainty | HW 3: Ticket to Ride | [pdf](hw3_TicketToRide/hw3_TicketToRide.pdf) | [download](./hw3_TicketToRide.zip) | Build a bot to play the popular board game Ticket to Ride |
 | Multi-Agent Systems | HW 4: Negotiating | [pdf](hw4_negotiator/hw4_negotiating.pdf) | [download](./hw4_negotiator.zip) | Build a bot the negotiates against other bots |
-| Machine Learning | HW 5: Classification | [pdf](hw5_MachineLearning/hw5_machineLearning.pdf) | [download](./hw5_MachineLearning.zip) | Implement one of the basic ML algorithms of your choice |
+| ~~Machine Learning~~ | ~~HW 5: Classification~~ | ~~[pdf](hw5_MachineLearning/hw5_machineLearning.pdf)~~ | ~~[download](./hw5_MachineLearning.zip)~~ | ~~Implement one of the basic ML algorithms of your choice~~ |
 

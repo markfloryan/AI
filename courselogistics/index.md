@@ -19,6 +19,8 @@ The course is divided into **9 overarching modules**. The modules and their stru
 
 <img src="./images/AIModules.png" width=75%>
 
+**NOTE: The Machine Learning Module no longer has a homework associated with it, so only the quiz will count towards mastery of that module**
+
 Each module has at least one **assessment**, whether it be a homework assignment or quiz. Most modules have one (either a homework or quiz) but two modules have both (Markov Models and Machine Learning). Your grade will be determined by how many modules you master. More detail on grading can be found below. *NOTE: You must work on pre-requisite modules BEFORE credit will be awarded for future modules. Keep this in mind.*
 
 
